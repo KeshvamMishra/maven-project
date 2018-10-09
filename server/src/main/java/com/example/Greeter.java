@@ -14,7 +14,7 @@ public class Greeter {
 
   /*** inherit document
   ****/
-  final public String greet(final String someone) {
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
