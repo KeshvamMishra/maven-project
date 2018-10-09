@@ -11,9 +11,11 @@ public class Greeter {
   public Greeter() {
 
   }
-
-  /*** inherit document
-  ****/
+  
+  /**
+  *@param : sonme line
+  *@method : fix
+  */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
